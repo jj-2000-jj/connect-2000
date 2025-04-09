@@ -1,0 +1,21 @@
+{
+  "name": "email-summary-bot",
+  "version": "1.0.0",
+  "description": "Daily email summary application using Google Gemini AI and Microsoft Graph",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-models": "node src/check-models.js"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.0.1",
+    "@google/generative-ai": "^0.24.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "dotenv": "^16.4.5",
+    "isomorphic-fetch": "^3.0.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.13",
+    "winston": "^3.11.0"
+  }
+}
